@@ -69,7 +69,6 @@ console.log(ageSarah >= 18)
 console.log(now - 1991 > now - 2018);
 
 const isFullAge = ageSarah >= 18;
-*/
 
 // Precedence
 const now = 2037;
@@ -84,3 +83,44 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(averageAge)
+
+// Coding Challenge #1
+
+// const marksWeight = 78;
+// const marksHeight = 1.69;
+// const johnWeight = 92;
+// const johnHeight = 1.95;
+const marksWeight = 95;
+const marksHeight = 1.88;
+const johnWeight = 85;
+const johnHeight = 1.76;
+
+const bmiMark = marksWeight / (marksHeight * marksHeight);
+const bmiJohn = johnWeight / (johnHeight * johnHeight);
+
+const markHigherBMI = bmiMark > bmiJohn;
+
+console.log(bmiMark, bmiJohn, markHigherBMI);
+
+*/
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1991;
+const currentYear = 2022;
+
+const jonas = "I'm " + firstName + ", a " + (currentYear - birthYear) + " years old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${currentYear - birthYear} years old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string`);
+
+console.log("String with \n\
+mupltiple \n\
+lines");
+
+console.log(`String with
+multiple
+lines`);
